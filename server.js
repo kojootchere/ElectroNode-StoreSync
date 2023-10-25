@@ -1,7 +1,7 @@
 // Import Express and other necessary modules
 const express = require('express');
-const routes = require('./routes'); // Assuming you have defined your routes in a file named 'routes.js'
-const sequelize = require('./config/connection'); // Assuming your Sequelize configuration is in a file named 'connection.js' under the 'config' directory.
+const routes = require('./routes');
+const sequelize = require('./config/connection');
 
 // Create an Express application
 const app = express();
